@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
 
 # 🩺 MEDORA  
 ### Your Digital Health Drive 💾🛡️  
@@ -24,7 +24,7 @@ where users can securely store medical records and apply for insurance—all fro
 
 ## 🚀 Vision
 
-<img align="left" src="https://media.giphy.com/media/l3vRfNA1p0rvhMSvS/giphy.gif" width="240"/>
+
 
 Healthcare data today is scattered, hard to access, and rarely user-controlled.
 
