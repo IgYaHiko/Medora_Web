@@ -14,26 +14,9 @@ import {
 import { auth } from "./config";
 import { doc, setDoc, getDoc, deleteDoc } from "firebase/firestore";
 import { db } from "./config";
+import { OTPData ,AuthUser} from "@/types/auth/auth-layout/types";
 
-// Simple user interface for auth only
-export interface AuthUser {
-  uid: string;
-  email: string;
-  username: string;
-  displayName?: string;
-  photoURL?: string;
-  createdAt: Date;
-  hasCompletedOnboarding: boolean;
-  emailVerified: boolean;
-}
 
-// OTP storage interface
-interface OTPData {
-  code: string;
-  email: string;
-  uid: string;
-  expiresAt: Date;
-}
 
 // Generate 6-digit OTP
 function generateOTP(): string {
